@@ -1,0 +1,55 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment / credentials
+.env
+.env.*
+
+# Medical imaging data
+*.nii
+*.nii.gz
+*.dcm
+*.mha
+*.mhd
+*.nrrd
+
+# NumPy artifacts
+*.npy
+*.npz
+
+# Model weights and checkpoints
+*.h5
+*.keras
+*.pt
+*.pth
+*.onnx
+*.ckpt
+*.pb
+*.index
+*.data-00000-of-00001
+checkpoint
+saved_model/
+
+# Ultralytics / training runs and generated outputs
+runs/
+wandb/
+outputs/
+output/
+logs/
+predictions/
+reports_dir/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
